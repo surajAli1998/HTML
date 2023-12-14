@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Come and visit the proper roadmap to follow to become a pro in DSA and algorithms">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>LearnWithSuraj: A Roadmap To Become DSA Expert</title>
+</head>
+<body>
+    <header>
+        This is header part
+        <!-- header contains navigations tag or nav tag -->
+        <nav>
+            Home
+            About
+            Settings
+        </nav>
+    </header>
+    <main>
+    <!-- main tag should contain: section, article and aside tags -->
+        <section>
+            <div>
+                <!-- target="_main" attribute helps us to open the url ina new tab -->
+            <a href="https://codewithharry.com" target="_main">Harry's Website</a>
+            <br>
+            <a href="https://cricbuzz.com" target="_blank">
+                <img src="Chapter3/Cricbuzz.jfif" alt="CricBuzz" width="122">
+            </a>
+            </div>
+            <div>
+                <table>
+                    <!-- table head consists of 1st row or the heading row and the caption also if we want -->
+                    <thead>
+                        <caption>Course Lists</caption>
+                        <tr>
+                            <th>Sl.No</th>
+                            <th colspan="2">Course Name</th>
+                            <!-- <th>Course Fee</th> -->
+                        </tr>
+                    </thead>
+                    <!-- tobody consists of the main table boduy with datas -->
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Full Stack Web Developement</td>
+                            <td>3000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Data Science</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Digital Marketing</td>
+                            <td>1000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div>
+                <form action="form.php">
+                    <input type="text" placeholder="Enter name">
+                    <br>
+                    <label for="SectionIdA">
+                        <input type="radio" name="Section" class="SectionRadioButton" value="Section A" id="SectionIdA">Section A
+                    </label>
+                    <!-- This above element can be written as below also -->
+                    <!-- <input type="radio" name="Section" value="Section A" id="SectionIdA">
+                    <label for="SectionIdA">Section A</label> -->
+
+                    <!-- for both radio buttons name is same means only one button can be selected on the other hand if we chnage the name then both radio buttons can be selected together,,,also the significance of name attribute is that, in the backend it will know a particular element by its name-->
+                    <label for="SectionIdB">
+                        <input type="radio" name="Section" class="SectionRadioButton" value="Section B" id="SectionIdB">Section B
+                    </label>
+                    <br>
+                    <label for="SpecialCoupon">
+                        <input type="checkbox" name="Want Special Coupon" class="checkbox" id="SpecialCoupon">Want Special Coupon
+                    </label>
+                    <br>
+                    <textarea name="textareainfrom1" id="textarea01" cols="30" rows="5" placeholder="Write about your user experience"></textarea>
+                    <br>
+                    <select name="car" id="car001">
+                        <option value="no-car">Select Your Car</option>
+                        <option value="omni">omni</option>
+                        <option value="i10">i10</option>
+                        <option value="desire">desire</option>
+                        <option value="bmw">bmw</option>
+                    </select>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+            <br>
+            <div>
+                <!-- iframe is actually for embedding utube videos or any other site in our site -->
+                <iframe width="290" height="140" src="https://www.youtube.com/embed/BsDoLVMnmZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
+                <!-- this video tag is for adding any video from ur storage into ur site -->
+                <video src="SampleVideo.mp4" controls width="300" autoplay loop></video>
+            </div>
+        </section>
+        <Section>
+            <div>
+                <h1>Why Computer Science</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quibusdam consequuntur odit.</p>
+            </div>
+            <div>
+                <h1>Web Developement</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda sequi, libero, dignissimos facere eos officia doloremque harum earum laborum provident vitae? Iure beatae id dignissimos doloremque possimus soluta doloribus.</p>
+            </div>
+            <span>
+                <p>This ia a span tag and its a inline element</p>
+            </span>
+            <br>
+            <span>This is another span tag</span>
+            <br>
+            <!-- Unordered list -->
+            <!-- Although This type attribute is deprecated from html and its recomended to use using css -->
+            <ul type="square">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+                <li>Career</li>
+            </ul>
+            <!-- ordered list -->
+            <ol type="A">
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Data Science</li>
+                <li>Web Developement</li>
+            </ol>
+        </Section>
+        <article>
+            <div>
+                <h1>This ia heading of article section</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, incidunt eum explicabo impedit numquam dolor mollitia tempora optio amet pariatur, aperiam magnam earum labore? Quisquam.</p>
+            </div>
+            <div>
+                <details>
+                    <summary>Summary on DSA</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolorum expedita totam autem labore, quis perspiciatis pariatur animi ad ab ducimus ullam cumque corrupti odio! Quibusdam, laboriosam! Et, voluptatibus eligendi.
+                </details>
+            </div>
+            <div>
+                <!-- html entities are some special characters which we can put in our web page using special keywords. Few examples are given below: -->
+
+                <!-- we can add space using &nbsp; keyword -->
+                <p>This is a sentence with &nbsp; &nbsp; 2 spaces</p>
+                
+                <!-- to write <p> we can use &lt;p&gt; -->
+                <p>This sentence contains &lt;p&gt;</p>
+
+                <p>Currency pound is written like this: &pound;</p>
+            </div>
+        </article>
+        <aside>
+            <div>
+                <h1>This is heading of aside section</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iusto recusandae voluptas officiis nobis dolorum omnis veritatis tempora vel nisi expedita, est quam autem fugit ratione ipsum illo? Maiores ab enim eum error corrupti!</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        This is footer part
+    </footer>
+</body>
+</html>
